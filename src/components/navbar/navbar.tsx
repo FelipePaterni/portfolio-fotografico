@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="w-full m-0 h-16 px-8 flex items-center justify-between bg-[rgba(0,0,0,0.49)] shadow-[0_1px_32px_16px_#000]">
+    <nav className="fixed top-0 left-0 w-full m-0 h-16 px-8 flex items-center justify-between bg-[rgba(0,0,0,0.49)] shadow-[0_1px_32px_16px_#000] z-50">
       <span className="text-white font-inter text-sm">LOGO</span>
 
       {/* Links - só aparecem em telas médias pra cima */}
