@@ -19,7 +19,7 @@ export default function RedesButton({
 }: RedesButton) {
   const style = twMerge(
     className,
-    "flex flex-col justify-center items-center gap-5 self-stretch "
+    "flex flex-col justify-center items-center gap-1 self-stretch "
   );
 
   return (
